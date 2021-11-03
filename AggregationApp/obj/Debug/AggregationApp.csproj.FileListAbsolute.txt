@@ -1,0 +1,15 @@
+D:\Documents\Profesional\LabJob\AggregationApp2\AggregationApp\AggregationApp\bin\Debug\AggregationApp.exe.config
+D:\Documents\Profesional\LabJob\AggregationApp2\AggregationApp\AggregationApp\bin\Debug\AggregationApp.exe
+D:\Documents\Profesional\LabJob\AggregationApp2\AggregationApp\AggregationApp\bin\Debug\AggregationApp.pdb
+D:\Documents\Profesional\LabJob\AggregationApp2\AggregationApp\AggregationApp\obj\Debug\AggregationApp.Properties.Resources.resources
+D:\Documents\Profesional\LabJob\AggregationApp2\AggregationApp\AggregationApp\obj\Debug\AggregationApp.csproj.GenerateResource.cache
+D:\Documents\Profesional\LabJob\AggregationApp2\AggregationApp\AggregationApp\obj\Debug\AggregationApp.csproj.CoreCompileInputs.cache
+D:\Documents\Profesional\LabJob\AggregationApp2\AggregationApp\AggregationApp\obj\Debug\AggregationApp.exe
+D:\Documents\Profesional\LabJob\AggregationApp2\AggregationApp\AggregationApp\obj\Debug\AggregationApp.pdb
+D:\Documents\Profesional\LabJob\AggregationApp2\AggregationApp\AggregationApp\obj\Debug\AggregationApp.CleanData.resources
+D:\Documents\Profesional\LabJob\AggregationApp2\AggregationApp\AggregationApp\obj\Debug\AggregationApp.sign_in.resources
+D:\Documents\Profesional\LabJob\AggregationApp2\AggregationApp\AggregationApp\bin\Debug\Renci.SshNet.dll
+D:\Documents\Profesional\LabJob\AggregationApp2\AggregationApp\AggregationApp\bin\Debug\Renci.SshNet.xml
+D:\Documents\Profesional\LabJob\AggregationApp2\AggregationApp\AggregationApp\obj\Debug\AggregationApp.csproj.CopyComplete
+D:\Documents\Profesional\LabJob\AggregationApp2\AggregationApp\AggregationApp\obj\Debug\AggregationApp.csproj.AssemblyReference.cache
+D:\Documents\Profesional\LabJob\AggregationApp2\AggregationApp\AggregationApp\obj\Debug\AggregationApp.Progress.resources
