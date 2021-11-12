@@ -10,6 +10,8 @@ using System.Windows.Forms;
 using System.IO;
 
 
+
+
 namespace AggregationApp
 {
     class errorcheck
@@ -31,6 +33,39 @@ namespace AggregationApp
                 return 0;
             }
         }
+
+        static public int checkCorrectThreshold(MyMaskedBox inbox, Label inlabel)
+        {
+            if (Int32.Parse(inbox.Text) < 90 && inbox.Enabled == true)
+            {
+                inlabel.ForeColor = errColor;
+                inbox.BorderColor = errColor;
+                return 1;
+            }
+            else
+            {
+                inlabel.ForeColor = default;
+                inbox.BorderColor = default;
+                return 0;
+            }
+        }
+
+        static public int findLocalPaths(MyMaskedBox inbox, Label inlabel)
+        {
+            if (File.Exists(inbox.Text) || Directory.Exists(inbox.Text))
+            {
+                inlabel.ForeColor = default;
+                inbox.BorderColor = default;
+                return 0;
+            }
+            else
+            {
+                inlabel.ForeColor = errColor;
+                inbox.BorderColor = errColor;
+                return 1;
+            }
+        }
+
 
         static public int findPaths(MyMaskedBox inbox, Label inlabel, Renci.SshNet.ConnectionInfo creds)
         {
@@ -57,5 +92,6 @@ namespace AggregationApp
                 return 0;            
             }
         }
+       
     }
 }

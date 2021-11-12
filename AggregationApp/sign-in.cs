@@ -91,7 +91,6 @@ namespace AggregationApp
             //return (remoteCredentials);
         }
 
-
         private void authBox_CheckedChanged(object sender, EventArgs e)
         {
             if (authBox.Checked == true)

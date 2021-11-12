@@ -120,4 +120,24 @@
   <metadata name="fileSystemWatcher1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <metadata name="FormToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>176, 17</value>
+  </metadata>
+  <data name="label9.ToolTip" xml:space="preserve">
+    <value>Collapses all .fastq data into unique reads, keeps
+track of which samples the unique reads originiated.
+Each of these unique reads is then aligned against the 
+key file to determine the identity of the read and the
+SNP of interst. All data is then aggregated to create 
+a SNP report showing the SNP of interst at each
+marker and a hitcount file which shows the number 
+of times that each SNP was found in each sample. 
+</value>
+  </data>
+  <metadata name="remoteProcess.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>296, 17</value>
+  </metadata>
+  <metadata name="localProcess.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>460, 17</value>
+  </metadata>
 </root>

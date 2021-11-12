@@ -13,3 +13,7 @@ D:\Documents\Profesional\LabJob\AggregationApp2\AggregationApp\AggregationApp\bi
 D:\Documents\Profesional\LabJob\AggregationApp2\AggregationApp\AggregationApp\obj\Debug\AggregationApp.csproj.CopyComplete
 D:\Documents\Profesional\LabJob\AggregationApp2\AggregationApp\AggregationApp\obj\Debug\AggregationApp.csproj.AssemblyReference.cache
 D:\Documents\Profesional\LabJob\AggregationApp2\AggregationApp\AggregationApp\obj\Debug\AggregationApp.Progress.resources
+D:\Documents\Profesional\LabJob\AggregationApp2\AggregationApp\AggregationApp\bin\Debug\AggregationApp.exe.manifest
+D:\Documents\Profesional\LabJob\AggregationApp2\AggregationApp\AggregationApp\bin\Debug\AggregationApp.application
+D:\Documents\Profesional\LabJob\AggregationApp2\AggregationApp\AggregationApp\obj\Debug\AggregationApp.exe.manifest
+D:\Documents\Profesional\LabJob\AggregationApp2\AggregationApp\AggregationApp\obj\Debug\AggregationApp.application

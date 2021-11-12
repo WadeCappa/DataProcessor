@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="AggregationApp.exe" version="1.0.0.6" publicKeyToken="858e48692946edb3" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="AggregationApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="AggregationApp.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AggregationApp.exe" size="46560">
+      <assemblyIdentity name="AggregationApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>rP1ZF93fVO9GMjfEekcqQPfPavkNs9ncO67a6m75LeQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Renci.SshNet.dll" size="804352">
+      <assemblyIdentity name="Renci.SshNet" version="2020.0.1.0" publicKeyToken="1CEE9F8BDE3DB106" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Y2gBJDUXMpX6s7ws4eaLl77Q8BRSvpOwsUmf22BzBEE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="AggregationApp.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=HEINZCORPORATIO\12533" issuerKeyHash="497504cda179c84f139caaf92569ad60f228b0ab" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>WpZ1XPsJLc41H3Pjx/NbUQk5E2lpTyJvlNzmkotACjI=</DigestValue></Reference></SignedInfo><SignatureValue>t0cYoOQAlQHpUqhpzk9B7PzpwvPFFZ1TbYBxngtK/EVtBRNp5rrWb8LXhLZAEZecyU+TqOHvko4zct6zmHSm+KM7oQKWKcBHGc8uVNDSpS5amiIJPEgpcRJx15kI0qkTZhCg89Xeid9PaXpC0P4dYW/uFQS9R4Wk4wiDKETGsAI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>4KcOPHcchaMVSvx1kCopo+/guqVdQkYnR7OMYxayzy5GBJQWOSuwYewC3VmFAVBmJvfVpP70whpPj+UpurH2iG3e8LYUPGgVNUVdULRu3WgYnKzqj7O7VOqd+Trv4wi4PWnhOEctSZiD7MMIBIhphENX8XqlzgO1VjdNiGQXJvU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="320a408b92e6dc946f224f6969133909515bf3c7e3731f35ce2d09fb5c75965a" Description="" Url=""><as:assemblyIdentity name="AggregationApp.exe" version="1.0.0.6" publicKeyToken="858e48692946edb3" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=HEINZCORPORATIO\12533</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>kGcncQAOW2pU4MiOWO1izobLYz2OakEco910YjflXKk=</DigestValue></Reference></SignedInfo><SignatureValue>iMB+tinKc7mYfgMJ3MIKOn8vCvwz1wQVwfEBlSR0Jh2pq3suXU84Ofa3+OnD0NTcotj0UbZFwu6I6Or3XGLhsF0o/dnoX9SD95j34L10MHeXFb1WdlQUVXHM2TLwjg8VrauvGHTWG1C4sumdSNeLwcn3g3iiVSwRLBBgVM0ivyY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>4KcOPHcchaMVSvx1kCopo+/guqVdQkYnR7OMYxayzy5GBJQWOSuwYewC3VmFAVBmJvfVpP70whpPj+UpurH2iG3e8LYUPGgVNUVdULRu3WgYnKzqj7O7VOqd+Trv4wi4PWnhOEctSZiD7MMIBIhphENX8XqlzgO1VjdNiGQXJvU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQNnUB8VdIEZdKKKn4/fiPWzANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioASABFAEkATgBaAEMATwBSAFAATwBSAEEAVABJAE8AXAAxADIANQAzADMwHhcNMjExMTAzMTYzNjUyWhcNMjIxMTAzMjIzNjUyWjA1MTMwMQYDVQQDHioASABFAEkATgBaAEMATwBSAFAATwBSAEEAVABJAE8AXAAxADIANQAzADMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOCnDjx3HIWjFUr8dZAqKaPv4LqlXUJGJ0ezjGMWss8uRgSUFjkrsGHsAt1ZhQFQZib31aT+9MIaT4/lKbqx9oht3vC2FDxoFTVFXVC0bt1oGJys6o+zu1Tqnfk67+MIuD1p4ThHLUmYg+zDCASIaYRDV/F6pc4DtVY3TYhkFyb1AgMBAAEwDQYJKoZIhvcNAQELBQADgYEASyhjI/nyN5/Cux0BbGj9rfK6irnS+2A3ESGv47d8gkfhkW674bqFEJZsNvWN4NRhWGuoqBsyMRki/5Ftk65Ot/thEfu6576EUmqe7SXtQz/VIzXJaoC/9f5N48m6I0E684+0lXp6VBS2wQ2Tk2/ekze0U/KU4XFS3TstEUV2o+4=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
